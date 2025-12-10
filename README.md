@@ -26,7 +26,6 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 
 - **[AgentGateway](https://github.com/agentgateway/agentgateway)** - A Linux Foundation project providing an AI-native proxy for secure connectivity (A2A & MCP protocols). It adds RBAC, observability, and policy enforcement to agent-tool interactions.
 - **[PhantomWall](https://github.com/c77-source/phantomwall)** - A lightweight open-source firewall that sits in front of your agent to detect prompt injections and prevent data exfiltration attempts in real-time.
-- **[CodeGate](https://github.com/stacklok/codegate)** - A security gateway specifically designed for agentic frameworks like LangGraph. It handles PII redaction, secret scanning, and model routing before requests hit the LLM.
 - **[Envoy AI Gateway](https://gateway.envoyproxy.io/)** - An Envoy-based gateway that manages request traffic to GenAI services, providing a control point for rate limiting and policy enforcement.
 
 ## ⚔️ Red Teaming & Vulnerability Scanners

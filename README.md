@@ -27,6 +27,9 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[Envoy AI Gateway](https://gateway.envoyproxy.io/)** - An Envoy-based gateway that manages request traffic to GenAI services, providing a control point for rate limiting and policy enforcement.
 - **[Immunity Agent](https://github.com/PrismorSec/immunity-agent)** - Security-focused AI agent runtime for scanning prompt injection, MCP risks, unsafe package installs, and dangerous agent actions before execution.
 
+**[AgentGate](https://github.com/ElamOlame31/agentgate-public)** - Pre-execution authorization PDP that intercepts every AI agent action before it fires. 4D trust scoring, 24h kill chain detection (BULK_READ_THEN_EXFIL, SENSITIVITY_RAMP), Merkle-chained audit trail. MIT licensed.
+https://www.tryagentgate.com/
+
 ## ⚔️ Red Teaming & Vulnerability Scanners
 *Offensive tools to test agents for security flaws, loop conditions, and unauthorized actions.*
 

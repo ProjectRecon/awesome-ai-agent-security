@@ -16,6 +16,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - [Guardrails & Compliance](#-guardrails--compliance)
 - [Benchmarks & Datasets](#-benchmarks--datasets)
 - [Identity & Authentication](#-identity--authentication)
+- [Audit & Accountability](#-audit--accountability)
 - [Contributing](#-contributing)
 
 ---
@@ -72,6 +73,11 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 
 - **[WSO2](https://github.com/wso2)** - An identity management solution that treats AI agents as first-class identities, enabling secure authentication and authorization for agent actions.
 - **[OneCLI](https://github.com/onecli/onecli)** - Open-source credential vault for AI agents. A Rust HTTP gateway intercepts agent requests and injects API credentials transparently, so agents never handle raw keys. Supports per-agent scoped tokens and AES-256-GCM encryption at rest.
+
+## 📜 Audit & Accountability
+*Tools that produce tamper-evident records of what an AI agent actually did, verifiable by third parties without trusting the operator.*
+
+- **[Nobulex](https://github.com/arian-gogani/nobulex)** - Open-source cryptographic receipt layer for agent tool invocations. Emits Ed25519-signed bilateral receipts (pre-execution admission + post-execution outcome) linked by a content-derived `action_ref` over JCS-canonical bytes (RFC 8785). Independently verifiable against the agent's published public key; cited in OWASP CheatSheetSeries, Microsoft Agent Governance Toolkit, and x402 settlement-receipt extension. MIT licensed.
 
 ---
 

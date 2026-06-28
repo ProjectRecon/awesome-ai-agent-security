@@ -53,6 +53,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[Kubernetes Agent Sandbox](https://github.com/kubernetes-sigs/agent-sandbox)** - A Kubernetes Native project providing a Sandbox Custom Resource Definition (CRD) to manage isolated, stateful workloads for AI agents.
 - **[Agent-Infra Sandbox](https://github.com/agent-infra/sandbox)** - An "All-In-One" sandbox combining Browser, Shell, VSCode, and File System access in a single Docker container, optimized for agentic tasks.
 - **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** - Formerly OpenDevin, this platform includes a secure runtime environment for autonomous coding agents to operate without accessing the host machine's sensitive files.
+- **[h5i](https://github.com/h5i-dev/h5i)** - A Rust CLI that runs multiple coding agents (Claude Code, Codex) on the same task, each in an isolated git-worktree sandbox. Agents peer-review each other before a neutral verifier replays and tests every candidate, with all run metadata versioned in the repository under refs/h5i/* for an auditable trail.
 
 ## 🚧 Guardrails & Compliance
 *Middleware to enforce business logic and safety policies on inputs and outputs.*

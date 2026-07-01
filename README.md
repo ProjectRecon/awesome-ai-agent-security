@@ -1,4 +1,4 @@
-# Awesome AI Agents Security 
+﻿# Awesome AI Agents Security 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ProjectRecon/awesome-ai-agents-security/blob/main/CONTRIBUTING.md)
@@ -40,6 +40,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 ## 🔍 Static Analysis & Linters
 *Tools to analyze agent configuration and logic code before deployment.*
 
+- **[AgentGuard](https://github.com/dockfixlabs/agentguard)** - AST-based taint tracking scanner for AI agent code. Covers OWASP ASI Top 10 (10/10) with 100% detection rate on 32-sample benchmark. Detects prompt injection, tool abuse, data exfiltration, credential exposure, agent loop exploitation, insecure output handling, and trust boundary violations. Includes MCP server mode, GitHub Action, pre-commit hook, and VS Code extension.
 - **[Aguara](https://github.com/garagon/aguara)** - A static security scanner for AI agent skills and MCP server configurations. Detects prompt injection, credential leaks, data exfiltration, and supply-chain attacks with 173 built-in rules, 4 analysis layers, and remediation guidance.
 - **[Agentic Radar](https://github.com/splx-ai/agentic-radar)** - A static analysis tool that visualizes agent workflows (LangGraph, CrewAI, AutoGen). It detects risky tool usage, permission loops, and maps them to known vulnerabilities.
 - **[Agent Bound](https://github.com/ElPaisano/agent-bound)** - A design-time analysis tool that calculates "Agentic Entropy"—a metric to quantify the unpredictability and risk of infinite loops or unconstrained actions in agent architectures.

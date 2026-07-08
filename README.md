@@ -30,6 +30,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 ## ⚔️ Red Teaming & Vulnerability Scanners
 *Offensive tools to test agents for security flaws, loop conditions, and unauthorized actions.*
 
+- **[Darkmoon](https://github.com/ASCIT31/Dark-Moon)** - An open-source (GPL-3.0) autonomous AI pentest platform and MCP host. It runs per-tech offensive sub-agents, covers Active Directory and Kubernetes, orchestrates 80+ offensive tools, and keeps an evidence trail per finding.
 - **[Strix](https://github.com/usestrix/strix)** - An autonomous AI agent designed for penetration testing. It runs inside a docker sandbox to actively probe applications and generate verified exploit capabilities.
 - **[PyRIT](https://github.com/Azure/PyRIT)** - Microsoft's open-source red teaming framework for generative AI. It automates multi-turn adversarial attacks to test if an agent can be coerced into harmful behavior.
 - **[Agentic Security](https://github.com/msoedov/agentic_security)** - A dedicated vulnerability scanner for agent workflows and LLMs capable of running multi-step jailbreaks and fuzzing attacks against agent logic.

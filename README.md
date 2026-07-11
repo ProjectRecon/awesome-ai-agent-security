@@ -53,6 +53,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[Kubernetes Agent Sandbox](https://github.com/kubernetes-sigs/agent-sandbox)** - A Kubernetes Native project providing a Sandbox Custom Resource Definition (CRD) to manage isolated, stateful workloads for AI agents.
 - **[Agent-Infra Sandbox](https://github.com/agent-infra/sandbox)** - An "All-In-One" sandbox combining Browser, Shell, VSCode, and File System access in a single Docker container, optimized for agentic tasks.
 - **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** - Formerly OpenDevin, this platform includes a secure runtime environment for autonomous coding agents to operate without accessing the host machine's sensitive files.
+- **[Nika](https://github.com/supernovae-st/nika)** - Rust workflow engine that runs AI tasks under default-deny permits (file/network/exec/tool allowlists) with pre-run static secret-flow checks and hash-chained tamper-evident run traces (`nika trace verify`) for post-hoc audit.
 
 ## 🚧 Guardrails & Compliance
 *Middleware to enforce business logic and safety policies on inputs and outputs.*

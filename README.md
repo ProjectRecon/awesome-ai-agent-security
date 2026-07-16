@@ -35,6 +35,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[Agentic Security](https://github.com/msoedov/agentic_security)** - A dedicated vulnerability scanner for agent workflows and LLMs capable of running multi-step jailbreaks and fuzzing attacks against agent logic.
 - **[Garak](https://github.com/leondz/garak)** - The "Nmap for LLMs." A vulnerability scanner that probes models for hallucination, data leakage, and prompt injection susceptibilities.
 - **[A2A Scanner](https://github.com/cisco-ai-defense/a2a-scanner)** - A scanner by Cisco designed to inspect "Agent-to-Agent" communication protocols for threats, validating agent identities and ensuring compliance with communication specs.
+- **[Redcells](https://redcells.net)** - Automated adversarial testing platform for LLMs you own or control. Runs structured red-team jobs (prompt injection, jailbreak, data leakage, etc.) with iterative attack→refine layers and per-layer judge scoring via web dashboard or API. ([Repo](https://github.com/awdemos/redcell))
 - **[Cybersecurity AI (CAI)](https://github.com/aliasrobotics/cai)** - A framework for building specialized security agents for offensive and defensive operations, often used in CTF (Capture The Flag) scenarios.
 
 ## 🔍 Static Analysis & Linters

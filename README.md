@@ -66,6 +66,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 *Resources to evaluate agent security performance.*
 
 - **[CVE Bench](https://github.com/uiuc-kang-lab/cve-bench)** - A benchmark for evaluating an AI agent's ability to exploit real-world web application vulnerabilities (useful for testing defensive agents).
+- **[VERITAS Omega Agent Trust Lab](https://github.com/VrtxOmega/veritas-agent-trust-lab)** - A browser-based reference lab with six blinded clean/tampered cases for forged verdicts, parameter swaps, nonce replay, correlated evaluators, removed evidence, and silent monitoring; results never authorize execution.
 
 ## 🆔 Identity & Authentication
 *Tools to manage agent identity (non-human identities).*

@@ -61,6 +61,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[Guardrails](https://github.com/guardrails-ai/guardrails)** - A Python framework for validating LLM outputs against structural and semantic rules (e.g., "must return valid JSON," "must not contain PII").
 - **[LiteLLM Guardrails](https://github.com/BerriAI/litellm)** - While known for model proxying, LiteLLM includes built-in guardrail features to filter requests and responses across multiple LLM providers.
 - **[OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard)** - An official OWASP project that detects and blocks AI agent memory poisoning attacks (OWASP ASI06). Provides a drop-in middleware for LangChain, AutoGen, and CrewAI pipelines with real-time threat detection, sanitization hooks, and audit logging. `pip install agent-memory-guard`.
+- **[agentcheck](https://github.com/uchit/agentcheck)** - Produces an audit evidence pack for an agent deployment across ten controls (workload identity, tool authorisation, autonomy levels, trajectory, blast radius, reversibility, injection defence, provenance, cost per outcome). Reports human-attested and command-verified controls separately rather than as a single score, and exits non-zero when a control is claimed without evidence or rests on an unmet prerequisite, so it works as a CI gate. `npx @uchit/agentcheck`.
 
 ## 📊 Benchmarks & Datasets
 *Resources to evaluate agent security performance.*

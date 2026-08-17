@@ -71,6 +71,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 *Tools to manage agent identity (non-human identities).*
 
 - **[WSO2](https://github.com/wso2)** - An identity management solution that treats AI agents as first-class identities, enabling secure authentication and authorization for agent actions.
+- **[Clay Seal Identity](https://github.com/clayseal/clayseal-identity)** - Open-source short-lived attested credentials for AI agents (SPIFFE-shaped IDs, holder-bound tokens, offline verification, optional MCP FastMCP tool authorization). `pip install clayseal-identity`.
 - **[OneCLI](https://github.com/onecli/onecli)** - Open-source credential vault for AI agents. A Rust HTTP gateway intercepts agent requests and injects API credentials transparently, so agents never handle raw keys. Supports per-agent scoped tokens and AES-256-GCM encryption at rest.
 
 ---

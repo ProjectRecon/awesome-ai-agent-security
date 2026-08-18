@@ -65,6 +65,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 ## 📊 Benchmarks & Datasets
 *Resources to evaluate agent security performance.*
 
+- **[BPL-v1.0](https://github.com/clayseal/bpl-benchmark)** - Composite business-policy benchmark for LLM agents: multi-step tool use against policies that no single in-schema call violates. Programmatic oracles; reports V / P / U.
 - **[CVE Bench](https://github.com/uiuc-kang-lab/cve-bench)** - A benchmark for evaluating an AI agent's ability to exploit real-world web application vulnerabilities (useful for testing defensive agents).
 
 ## 🆔 Identity & Authentication

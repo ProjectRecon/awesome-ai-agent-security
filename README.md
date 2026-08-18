@@ -60,6 +60,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** - NVIDIA's toolkit for adding programmable rails to LLM-based apps. It ensures agents stay on topic, avoid jailbreaks, and adhere to defined safety policies.
 - **[Guardrails](https://github.com/guardrails-ai/guardrails)** - A Python framework for validating LLM outputs against structural and semantic rules (e.g., "must return valid JSON," "must not contain PII").
 - **[LiteLLM Guardrails](https://github.com/BerriAI/litellm)** - While known for model proxying, LiteLLM includes built-in guardrail features to filter requests and responses across multiple LLM providers.
+- **[MARGINAL](https://github.com/SignalLayerLabs/Marginal)** - Local-first runtime governor for AI coding agents that observes repeated tool work in Shadow Mode and gates narrow enforcement on verified evidence, explicit consent, and integrity checks.
 - **[OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard)** - An official OWASP project that detects and blocks AI agent memory poisoning attacks (OWASP ASI06). Provides a drop-in middleware for LangChain, AutoGen, and CrewAI pipelines with real-time threat detection, sanitization hooks, and audit logging. `pip install agent-memory-guard`.
 
 ## 📊 Benchmarks & Datasets

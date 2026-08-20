@@ -62,6 +62,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[LiteLLM Guardrails](https://github.com/BerriAI/litellm)** - While known for model proxying, LiteLLM includes built-in guardrail features to filter requests and responses across multiple LLM providers.
 - **[OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard)** - An official OWASP project that detects and blocks AI agent memory poisoning attacks (OWASP ASI06). Provides a drop-in middleware for LangChain, AutoGen, and CrewAI pipelines with real-time threat detection, sanitization hooks, and audit logging. `pip install agent-memory-guard`.
 
+- **[MandateGuard](https://github.com/ezequiellich44-cmd/MandateGuard)** - Deterministic payment policy engine for AI agents: budgets, allowlists, denylists, per-window rate limits, signed Ed25519 mandates enforced before any money-moving tool executes - no LLM in the decision path. Tamper-evident SHA-256 ledger. MCP server on official registry.
 ## 📊 Benchmarks & Datasets
 *Resources to evaluate agent security performance.*
 

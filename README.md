@@ -45,6 +45,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[Agent Bound](https://github.com/ElPaisano/agent-bound)** - A design-time analysis tool that calculates "Agentic Entropy"—a metric to quantify the unpredictability and risk of infinite loops or unconstrained actions in agent architectures.
 - **[Checkov](https://github.com/bridgecrewio/checkov)** - While primarily for IaC, Checkov includes policies for scanning AI infrastructure and configurations to prevent misconfigurations in deployment.
 - **[ATR (Agent Threat Rules)](https://github.com/Agent-Threat-Rule/agent-threat-rules)** - 108 open-source regex detection rules for AI agent threats (prompt injection, tool poisoning, credential exfiltration, skill compromise). <1ms per scan. Adopted by Cisco AI Defense.
+- **[whatileaked](https://github.com/selan-ai/whatileaked)** - A local scanner for credentials a coding agent has already written to disk: Claude Code, Codex and Cursor transcripts plus instruction/memory files (CLAUDE.md, AGENTS.md) that are re-read every session. Uses the gitleaks rule set, reports a rule name and one-way fingerprint instead of the secret, and redacts findings in place. No network calls, no telemetry, zero dependencies.
 
 ## 📦 Sandboxing & Isolation Environments
 *Secure runtimes to prevent agents from damaging the host system during code execution.*

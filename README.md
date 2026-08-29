@@ -36,7 +36,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[Garak](https://github.com/leondz/garak)** - The "Nmap for LLMs." A vulnerability scanner that probes models for hallucination, data leakage, and prompt injection susceptibilities.
 - **[A2A Scanner](https://github.com/cisco-ai-defense/a2a-scanner)** - A scanner by Cisco designed to inspect "Agent-to-Agent" communication protocols for threats, validating agent identities and ensuring compliance with communication specs.
 - **[Cybersecurity AI (CAI)](https://github.com/aliasrobotics/cai)** - A framework for building specialized security agents for offensive and defensive operations, often used in CTF (Capture The Flag) scenarios.
-- **[UndercoverAgent](https://undercoveragent.ai)** - Watching the chat is not a weekly brief. Secret-shopper tests on a live AI agent, delivered as one written intelligence brief per week with transcript-backed findings. Cancel from the Stripe receipt. Start the $500/week retainer at https://undercoveragent.ai/weekly-brief.
+- **[Undercover](https://undercoveragent.ai)** - Undercover secret-shopper tests a chatbot or custom API and delivers a weekly written brief, not a dashboard seat. https://undercoveragent.ai/weekly-brief.
 
 ## 🔍 Static Analysis & Linters
 *Tools to analyze agent configuration and logic code before deployment.*
